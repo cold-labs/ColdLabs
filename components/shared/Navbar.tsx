@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { AlignRight, ChevronsDown, Github, Menu } from "lucide-react";
+import { AlignRight, ChevronsDown, Github } from "lucide-react";
 import {
   Sheet,
   SheetContent,

@@ -81,3 +81,16 @@ body {
     scrollbar-width: none;
   }
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-24rem * 12)); /* Adjust based on icon count and spacing */
+  }
+}
+
+.animate-scroll {
+  animation: scroll linear infinite;
+}
