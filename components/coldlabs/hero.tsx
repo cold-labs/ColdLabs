@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '../ui/button';
 import TechStackSlider from './tech-stack-slider';
+import { Badge } from '../ui/badge';
 
 const Hero = () => {
   const [dotIndex, setDotIndex] = React.useState(0);
@@ -17,8 +18,11 @@ const Hero = () => {
   return (
     <div className="min-h-[60vh] flex items-center bg-gradient-to-b from-background to-background/80">
       <div className='container mx-auto px-4'>
+        <Badge variant="outline" className="text-xs py-1 text-red-400">
+            Under development
+        </Badge>
         <h1 className='text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter'>
-          CodeLabs
+          ColdLabs
           <span className="Ww-24">
             {[...Array(3)].map((_, i) => (
               <span
@@ -41,7 +45,7 @@ const Hero = () => {
           <Button
           variant={"outline"}
           >
-            Get Started
+            Contact
           </Button>
         </div>
       <TechStackSlider/>
