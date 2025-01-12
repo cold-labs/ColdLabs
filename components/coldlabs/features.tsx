@@ -15,7 +15,7 @@ interface Props {
     gradient: string;
   }
 
-const FeatureCard = ({ icon: Icon, title, description, gradient }: any) => {
+const FeatureCard = ({ Icon, title, description, gradient }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
       <div className="flex h-[200px] flex-col justify-between rounded-md p-6">
@@ -36,37 +36,37 @@ const FeatureCard = ({ icon: Icon, title, description, gradient }: any) => {
 export default function Features() {
   const features = [
     {
-      icon: IconBrandNextjs,
+      Icon: IconBrandNextjs,
       title: "Next.js 15",
       description: "App dir, Routing, Layouts, Loading UI and API routes.",
       gradient: "from-[#0070F3] to-[#00a6ed]"
     },
     {
-      icon: IconBrandReact,
+      Icon: IconBrandReact,
       title: "React 19",
       description: "Server and Client Components with the newest React features and hooks.",
       gradient: "from-[#61DAFB] to-[#00b4d8]"
     },
     {
-      icon: IconBrandPrisma,
+      Icon: IconBrandPrisma,
       title: "Prisma",
       description: "ORM using Prisma for scalable data management.",
       gradient: "from-[#3ECF8E] to-[#3fb950]"
     },
     {
-      icon: IconBrandTailwind,
+      Icon: IconBrandTailwind,
       title: "Components",
       description: "UI components built using Radix UI and styled with Tailwind CSS.",
       gradient: "from-[#FF3E00] to-[#ff6b6b]"
     },
     {
-      icon: IconBrandAuth0,
+      Icon: IconBrandAuth0,
       title: "Authentication",
       description: "Secure authentication using NextAuth.js and middleware protection.",
       gradient: "from-[#6366F1] to-[#8b5cf6]"
     },
     {
-      icon: IconBrandStripe,
+      Icon: IconBrandStripe,
       title: "Subscriptions",
       description: "Free and paid subscriptions using Stripe with automated billing.",
       gradient: "from-[#635BFF] to-[#8257e5]"
