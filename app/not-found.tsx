@@ -44,8 +44,8 @@ const NotFound = () => {
         </h1>
         
         <p className="text-muted-foreground text-lg max-w-md mx-auto">
-          Oops! Looks like you've ventured into uncharted territory. 
-          Let's help you find your way back.
+          Oops! Looks like you&apos;ve ventured into uncharted territory. 
+          Let&apos;s help you find your way back.
         </p>
 
         <div className="flex gap-4 justify-center my-8">
