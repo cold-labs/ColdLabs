@@ -94,3 +94,7 @@ body {
 .animate-scroll {
   animation: scroll linear infinite;
 }
+
+.text-gradient {
+  @apply bg-gradient-to-r from-[#0ea5e9] to-[#6366F1] dark:from-[#0ea5e9] dark:to-[#6366F1] bg-clip-text text-transparent;
+}

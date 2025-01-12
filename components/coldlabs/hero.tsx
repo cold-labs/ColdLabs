@@ -3,6 +3,7 @@ import React from 'react';
 import { Button } from '../ui/button';
 import TechStackSlider from './tech-stack-slider';
 import { Badge } from '../ui/badge';
+import AnimatedShinyText from '../ui/animated-shiny-text';
 
 const Hero = () => {
   const [dotIndex, setDotIndex] = React.useState(0);
@@ -18,11 +19,13 @@ const Hero = () => {
   return (
     <div className="min-h-[60vh] flex items-center bg-gradient-to-b from-background to-background/80">
       <div className='container mx-auto px-4'>
-        <Badge variant="outline" className="text-xs py-1 text-red-400">
-            Under development
+        <Badge variant="outline">
+        <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out">
+          <span>⚒️ Under evelopment</span>
+        </AnimatedShinyText>
         </Badge>
-        <h1 className='text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter'>
-          ColdLabs
+        <h1 className='text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight'>
+          C<span className='text-gradient'>o</span>ldLabs
           <span className="Ww-24">
             {[...Array(3)].map((_, i) => (
               <span

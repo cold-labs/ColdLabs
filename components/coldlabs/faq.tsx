@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 
 interface Props {
     question: string;
@@ -44,7 +45,7 @@ const faqs: Props[] = [
 
 export default function FAQ() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-slate-50 dark:bg-transparent">
+    <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -71,7 +72,28 @@ export default function FAQ() {
             ))}
           </Accordion>
         </div>
+
+
+        <div className="mx-auto max-w-[800px] mt-12">
+        <p className="text-muted-foreground font-bold">Support</p>
+          <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="support">
+                <AccordionTrigger className="text-left hover:no-underline">
+                  Do you offer technical support?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-500 dark:text-gray-400">
+                  We do offer technical support. If you have any query, please contact with us throught available options and we will try to reach back to you as soon as possible.
+                </AccordionContent>
+              </AccordionItem>
+          </Accordion>
+        </div>
       </div>
+      <p className="mt-8 text-center text-muted-foreground text-sm">
+        Still have questions? Email us at 
+        <Link href={"mailto:coldlabs.dev@gmail.com"} target="_blank" className="ml-1 underline">
+          coldlabs.dev@gmail.com
+        </Link>
+      </p>
     </section>
   );
 }

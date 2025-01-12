@@ -76,7 +76,7 @@ export default function Features() {
   return (
       <section className="container mx-auto space-y-6 py-8 px-6 md:py-12 lg:py-24 dark:bg-slate-950/50 rounded-lg">
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-          <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl bg-gradient-to-r from-[#0ea5e9] to-[#6366F1] dark:from-[#0ea5e9] dark:to-[#6366F1] bg-clip-text text-transparent">
+          <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl text-gradient">
             Features
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
