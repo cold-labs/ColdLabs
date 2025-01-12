@@ -22,7 +22,7 @@ interface SocialNetworkProps {
 export const Team = () => {
     const teamList: TeamProps[] = [
         {
-          imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          imageUrl: "/iftekhar.jpg",
           firstName: "Iftekhar",
           lastName: "Mohammed",
           positions: ["Fronted Developer", "Creator Of This Website"],
@@ -42,8 +42,7 @@ export const Team = () => {
           ],
         },
       {
-        imageUrl:
-          "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        imageUrl:"/rahat.jpg",
         firstName: "Rahat",
         lastName: "Ahmed",
         positions: ["QA Team Lead"],
@@ -59,8 +58,7 @@ export const Team = () => {
         ],
       },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/asif.jpg",
       firstName: "Asif",
       lastName: "Rahman",
       positions: ["Django Developer"],
@@ -76,8 +74,7 @@ export const Team = () => {
       ],
     },
       {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/nehal.jpg",
       firstName: "Mohammed",
       lastName: "Iftekharul",
       positions: ["Marketing Coordinator", "Product Marketing Manager"],
