@@ -20,7 +20,7 @@ export const Community = () => {
                 <IconBrandDiscordFilled className="size-20"/>
                 <div>
                   Ready to join this
-                  <span className="text-transparent pl-2 bg-gradient-to-t from-[#0ea5e9] to-[#000000] dark:to-[#ffffff] bg-clip-text">
+                  <span className="bg-gradient-to-r from-[#0ea5e9] to-[#6366F1] dark:from-[#0ea5e9] dark:to-[#6366F1] bg-clip-text text-transparent ml-2">
                     Community?
                   </span>
                 </div>
