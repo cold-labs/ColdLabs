@@ -33,11 +33,11 @@ export const Team = () => {
             },
             {
               name: "Github",
-              url: "https://github.com/leoMirandaa",
+              url: "https://github.com/ifte-13",
             },
             {
               name: "X",
-              url: "https://x.com/leo_mirand4",
+              url: "https://x.com/ifte_13",
             },
           ],
         },
@@ -65,7 +65,11 @@ export const Team = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/asif-rahman-9b799a24b/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/Asifrahman13",
         },
         {
           name: "X",
@@ -82,10 +86,6 @@ export const Team = () => {
         {
           name: "LinkedIn",
           url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
         },
         {
           name: "X",
