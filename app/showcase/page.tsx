@@ -1,9 +1,10 @@
-import React from 'react'
+import { UnderDevelopment } from '@/components/under-development'
 
 export default function page() {
   return (
-    <div className='min-h-[calc(100vh-7.1rem)]'>
-
-    </div>
+    <UnderDevelopment
+      title='Project Showcases'
+      description='This section is currently under development. Stay tuned with us for further updates.'
+    />
   )
 }
